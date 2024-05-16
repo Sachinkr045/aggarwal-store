@@ -1,0 +1,375 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.nav li{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-right: 45px;
+}
+
+.nav button{
+    margin-left: 20px;
+    padding: 8px 36px;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+
+.nav li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.nav button:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #007bff;;
+}
+
+/*hero*/
+
+.hero{
+    background-color:#007bff;
+    height: 90vh;
+    display: flex;
+}
+
+.hero .left{
+    
+    width: 40%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+
+.left .para{
+   
+    font-size: 113px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 113px;
+    font-weight: bolder;
+}
+
+.hero .right{
+    
+    width: 60%;
+}
+
+.hero .right img{
+    width: 100%;
+}
+
+.left button {
+    
+    padding: 8px 36px;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #007bff;
+   border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.left button:hover{
+    background-color:  #7ab7f8;
+    color:  #ffffff;
+    cursor: pointer;
+}
+
+/*service*/
+
+.service{
+    background-color: #ffffff;
+}
+
+.service h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.service .box{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.main-box .box img{
+    width: 250px;
+}
+
+.service img {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    
+    margin-top: 60px;
+}
+
+.service .con{
+    font-size: 90px;
+    color: #007bff;
+    text-align: center;
+    word-spacing: 8px;
+    padding: 30px;
+}
+
+
+/*hero*/
+
+.order{
+    background-color:#007bff;
+    height: 77vh;
+    display: flex;
+    
+}
+
+.order .left{
+    
+    width: 60%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 70px;
+    padding: 50px;
+}
+
+
+.left .para{
+   
+    font-size: 113px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 113px;
+    font-weight: bolder;
+}
+
+.order .right{
+    
+    width: 40%;
+}
+
+.order .right img{
+    width: 100%;
+}
+
+.left button {
+    
+    padding: 8px 36px;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #007bff;
+   border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.left button:hover{
+    background-color:  #7ab7f8;
+    color:  #ffffff;
+    cursor: pointer;
+}
+
+/*why*/
+
+.why{
+    background-color: #ffe308;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+.why .para{
+    font-size: 11vh;
+    font-weight: bold;
+    
+}
+
+.img-box p{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*outlet*/
+
+.outlet{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.outlet img{
+    width: 60%;
+}
+
+
+/*offer*/
+.offer h3{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.offer-img{
+
+    display: flex;
+    
+    justify-content: center;
+}
+
+.offer-img .left img{
+    width: 460px;
+    height: 520px;
+    margin: 10px;
+}
+
+.right .one img{
+    width: 635px;
+    height: 263px;
+    margin: 10px;
+}
+.offer-img .two img{
+    width: 302px;
+    height: 232px;
+}
+
+
+/*About us*/
+
+
+.about{
+    background-color: #ffe308;
+    display: flex;
+}
+
+.about .ab-para{
+  
+   padding: 60px 100px;
+   
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.about .ab-para h3{
+   
+    font-size: 50px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+
+ 
+.about .ab-para p{
+   
+    font-size: 30px;
+    
+ }
+
+ /*review*/
+
+ .review{
+    background-color: #f0e384;
+    padding: 80px;
+    display: flex;
+    
+ }
+
+ .review .r-box{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width:700px;
+    height: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 10px;
+ }
+
+ 
+ .review .r-box img{
+    width: 150px;
+    height: 150px;
+ }
+
+ /*Footer*/
+
+ footer{
+    background-color:#4b9aee;
+    width: 100%;
+    
+ }
+
+ footer .s-footer{
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    color:white;
+    font-size: 23px;
+    flex-wrap: ;
+ }
+
+ footer .s-footer h3, p{
+    padding-bottom: 20px;
+ }
+
+
+ /*Resposive*/
+
+ @media only screen and (max-width: 600px) {
+    .nav {
+      display: none;
+    }
+    .hero{
+        width:100%;
+        
+    }
+
+    .hero .right{
+        width: 100%;
+    }
+    .hero .left{
+        width: 100%;
+    }
+  }
